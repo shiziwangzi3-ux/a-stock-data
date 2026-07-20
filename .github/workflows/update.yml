@@ -2,11 +2,21 @@ name: Update A-share data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "technical_data.py"
+      - ".github/workflows/update.yml"
   schedule:
     - cron: "*/5 1-7 * * 1-5"
 
 permissions:
   contents: write
+
+concurrency:
+  group: a-share-data-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -27,15 +37,24 @@ jobs:
       - name: Fetch and verify quotes
         run: python update_data.py
 
+      - name: Generate technical indicators
+        continue-on-error: true
+        run: python technical_data.py
+
       - name: Commit latest data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add latest.json
+
+          if [ -f technical.json ]; then
+            git add technical.json
+          fi
 
           if git diff --cached --quiet; then
             echo "No data change"
           else
-            git commit -m "Update A-share quote data"
+            git commit -m "Update A-share market and technical data"
             git push
           fi
