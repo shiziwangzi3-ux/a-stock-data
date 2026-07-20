@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-20 19:45:41",
+  "timezone": "Asia/Shanghai",
+  "status": "行情核准失败",
+  "allowTradeAnalysis": false,
+  "stocks": {
+    "SZ.002460": {
+      "code": "SZ.002460",
+      "name": "赣锋锂业",
+      "eastmoney": null,
+      "tencent": {
+        "source": "tencent",
+        "timestamp": "2026-07-20 16:14:51",
+        "latest": 46.11,
+        "prevClose": 48.48,
+        "open": 48.23,
+        "high": 48.47,
+        "low": 45.3,
+        "volume": 615237.0,
+        "turnover": 2882390000.0,
+        "turnoverRate": 5.08
+      },
+      "verification": {
+        "passed": false,
+        "errors": [
+          "source_missing"
+        ],
+        "differences": {}
+      }
+    },
+    "SH.601600": {
+      "code": "SH.601600",
+      "name": "中国铝业",
+      "eastmoney": null,
+      "tencent": {
+        "source": "tencent",
+        "timestamp": "2026-07-20 16:14:52",
+        "latest": 9.17,
+        "prevClose": 8.44,
+        "open": 8.61,
+        "high": 9.26,
+        "low": 8.53,
+        "volume": 5015501.0,
+        "turnover": 4494810000.0,
+        "turnoverRate": 3.8
+      },
+      "verification": {
+        "passed": false,
+        "errors": [
+          "source_missing"
+        ],
+        "differences": {}
+      }
+    }
+  },
+  "errors": [
+    "SZ.002460_eastmoney_error: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/stock/get?secid=0.002460&fltt=2&invt=2&fields=f43%2Cf44%2Cf45%2Cf46%2Cf47%2Cf48%2Cf57%2Cf58%2Cf60%2Cf86%2Cf169%2Cf170%2Cf171&_=1784547941603",
+    "SH.601600_eastmoney_error: 502 Server Error: Bad Gateway for url: https://push2.eastmoney.com/api/qt/stock/get?secid=1.601600&fltt=2&invt=2&fields=f43%2Cf44%2Cf45%2Cf46%2Cf47%2Cf48%2Cf57%2Cf58%2Cf60%2Cf86%2Cf169%2Cf170%2Cf171&_=1784547941603"
+  ]
+}
