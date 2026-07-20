@@ -27,53 +27,282 @@ def to_number(value):
         return None
 
 
+def 
 def fetch_eastmoney(secid):
+    """
+    为兼容现有主程序，暂时保留原函数名。
+    实际数据源顺序：新浪 -> 网易。
+    """
+    errors = []
+
+    for fetcher in (fetch_sina, fetch_netease):
+        try:
+            return fetcher(secid)
+        except Exception as error:
+            errors.append(
+                f"{fetcher.__name__}: {error}"
+            )
+
+    raise RuntimeError(
+        "；".join(errors)
+    )
+
+
+def fetch_sina(secid):
+    market, code = secid.split(".", 1)
+
+    symbol = (
+        ("sz" if market == "0" else "sh")
+        + code
+    )
+
     response = requests.get(
-        "https://push2.eastmoney.com/api/qt/stock/get",
-        params={
-            "secid": secid,
-            "fltt": 2,
-            "invt": 2,
-            "fields": (
-                "f43,f44,f45,f46,f47,f48,"
-                "f57,f58,f60,f86,f169,f170,f171"
-            ),
-            "_": int(NOW.timestamp() * 1000),
-        },
+        f"https://hq.sinajs.cn/list={symbol}",
         headers={
             **HEADERS,
-            "Referer": "https://quote.eastmoney.com/",
+            "Referer": "https://finance.sina.com.cn/",
+            "Accept": "text/plain,*/*",
         },
         timeout=15,
     )
 
     response.raise_for_status()
 
-    data = response.json().get("data")
+    text = response.content.decode(
+        "gbk",
+        errors="ignore",
+    )
 
-    if not data:
-        raise RuntimeError("东方财富返回空数据")
+    match = re.search(
+        r'="([^"]*)"',
+        text,
+    )
 
-    timestamp = datetime.fromtimestamp(
-        int(data["f86"]),
-        TZ,
-    ).strftime("%Y-%m-%d %H:%M:%S")
+    if not match or not match.group(1):
+        raise RuntimeError(
+            "新浪返回空数据"
+        )
+
+    fields = match.group(1).split(",")
+
+    if len(fields) < 32:
+        raise RuntimeError(
+            f"新浪字段不足: {len(fields)}"
+        )
+
+    open_price = to_number(fields[1])
+    prev_close = to_number(fields[2])
+    latest = to_number(fields[3])
+    high = to_number(fields[4])
+    low = to_number(fields[5])
+    volume = to_number(fields[8])
+    turnover = to_number(fields[9])
+
+    quote_date = fields[30].replace("/", "-")
+    quote_time = fields[31]
+
+    timestamp = (
+        f"{quote_date} {quote_time}"
+        if quote_date and quote_time
+        else None
+    )
+
+    change = (
+        round(latest - prev_close, 4)
+        if latest is not None
+        and prev_close is not None
+        else None
+    )
+
+    pct_change = (
+        round(
+            change / prev_close * 100,
+            4,
+        )
+        if change is not None
+        and prev_close
+        else None
+    )
+
+    amplitude = (
+        round(
+            (high - low) / prev_close * 100,
+            4,
+        )
+        if high is not None
+        and low is not None
+        and prev_close
+        else None
+    )
 
     return {
-        "source": "eastmoney",
+        "source": "sina",
         "timestamp": timestamp,
-        "latest": to_number(data.get("f43")),
-        "prevClose": to_number(data.get("f60")),
-        "open": to_number(data.get("f46")),
-        "high": to_number(data.get("f44")),
-        "low": to_number(data.get("f45")),
-        "volume": to_number(data.get("f47")),
-        "turnover": to_number(data.get("f48")),
-        "change": to_number(data.get("f169")),
-        "pctChange": to_number(data.get("f170")),
-        "amplitude": to_number(data.get("f171")),
+        "latest": latest,
+        "prevClose": prev_close,
+        "open": open_price,
+        "high": high,
+        "low": low,
+        "volume": volume,
+        "turnover": turnover,
+        "change": change,
+        "pctChange": pct_change,
+        "amplitude": amplitude,
     }
 
+
+def fetch_netease(secid):
+    market, code = secid.split(".", 1)
+
+    netease_code = (
+        ("1" if market == "0" else "0")
+        + code
+    )
+
+    response = requests.get(
+        (
+            "http://api.money.126.net/data/feed/"
+            f"{netease_code},money.api"
+        ),
+        headers={
+            **HEADERS,
+            "Referer": "http://quotes.money.163.com/",
+        },
+        timeout=15,
+    )
+
+    response.raise_for_status()
+
+    text = response.content.decode(
+        "utf-8",
+        errors="ignore",
+    )
+
+    match = re.search(
+        r"_ntes_quote_callback\((.*)\);",
+        text,
+        re.S,
+    )
+
+    if not match:
+        raise RuntimeError(
+            "网易返回格式无法解析"
+        )
+
+    payload = json.loads(
+        match.group(1)
+    )
+
+    item = payload.get(netease_code)
+
+    if not item:
+        raise RuntimeError(
+            "网易返回空数据"
+        )
+
+    latest = to_number(
+        item.get("price")
+    )
+    prev_close = to_number(
+        item.get("yestclose")
+    )
+    open_price = to_number(
+        item.get("open")
+    )
+    high = to_number(
+        item.get("high")
+    )
+    low = to_number(
+        item.get("low")
+    )
+
+    timestamp = normalize_quote_time(
+        item.get("update")
+        or item.get("time")
+    )
+
+    change = (
+        round(latest - prev_close, 4)
+        if latest is not None
+        and prev_close is not None
+        else None
+    )
+
+    pct_change = (
+        round(
+            change / prev_close * 100,
+            4,
+        )
+        if change is not None
+        and prev_close
+        else None
+    )
+
+    amplitude = (
+        round(
+            (high - low) / prev_close * 100,
+            4,
+        )
+        if high is not None
+        and low is not None
+        and prev_close
+        else None
+    )
+
+    return {
+        "source": "netease",
+        "timestamp": timestamp,
+        "latest": latest,
+        "prevClose": prev_close,
+        "open": open_price,
+        "high": high,
+        "low": low,
+        "volume": to_number(
+            item.get("volume")
+        ),
+        "turnover": to_number(
+            item.get("turnover")
+        ),
+        "change": change,
+        "pctChange": pct_change,
+        "amplitude": amplitude,
+    }
+
+
+def normalize_quote_time(value):
+    if value is None:
+        return None
+
+    text = str(value).strip().replace(
+        "/",
+        "-",
+    )
+
+    if not text:
+        return None
+
+    if re.fullmatch(r"\d{14}", text):
+        return datetime.strptime(
+            text,
+            "%Y%m%d%H%M%S",
+        ).strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+    if re.fullmatch(
+        r"\d{2}:\d{2}:\d{2}",
+        text,
+    ):
+        return (
+            NOW.strftime("%Y-%m-%d")
+            + " "
+            + text
+        )
+
+    if len(text) >= 19:
+        return text[:19]
+
+    return text
 
 def fetch_tencent():
     symbols = ",".join(stock[3] for stock in STOCKS)
