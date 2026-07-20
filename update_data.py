@@ -27,7 +27,6 @@ def to_number(value):
         return None
 
 
-def 
 def fetch_eastmoney(secid):
     """
     为兼容现有主程序，暂时保留原函数名。
