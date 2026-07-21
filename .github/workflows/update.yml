@@ -2,14 +2,6 @@ name: Update A-share data
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "technical_data.py"
-      - ".github/workflows/update.yml"
-on:
-  workflow_dispatch:
   schedule:
     - cron: "*/5 1-7 * * 1-5"
 permissions:
