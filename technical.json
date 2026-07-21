@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-21 11:01:04",
+  "generatedAt": "2026-07-21 11:40:31",
   "timezone": "Asia/Shanghai",
-  "status": "技术指标生成部分成功",
-  "allowTechnicalAnalysis": false,
+  "status": "技术指标生成成功",
+  "allowTechnicalAnalysis": true,
   "stocks": {
     "SZ.002460": {
       "code": "SZ.002460",
       "name": "赣锋锂业",
       "latestQuote": {
-        "price": 46.91,
-        "timestamp": "2026-07-21 11:01:03",
-        "verificationPassed": false
+        "price": 47.44,
+        "timestamp": "2026-07-21 11:40:06",
+        "verificationPassed": true
       },
       "timeframes": {
         "15m": {
@@ -20,21 +20,21 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cm15%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f74560>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+            "tencent: 腾讯K线字段缺失"
           ],
           "verification": {
-            "passed": false,
+            "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 46.91,
-              "timestamp": "2026-07-21 11:01:03"
+              "price": 47.44,
+              "timestamp": "2026-07-21 11:40:06"
             },
             "selectedLastBar": {
-              "close": 46.96,
-              "timestamp": "2026-07-21 11:15:00"
+              "close": 47.44,
+              "timestamp": "2026-07-21 11:30:00"
             },
-            "latestQuoteDifference": 0.05,
-            "latestQuoteDifferencePct": 0.1066,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -46,61 +46,61 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-07-21 11:15:00",
-              "open": 46.86,
-              "high": 46.97,
-              "low": 46.86,
-              "close": 46.96,
-              "volume": 81400.0
+              "timestamp": "2026-07-21 11:30:00",
+              "open": 47.19,
+              "high": 47.45,
+              "low": 47.1,
+              "close": 47.44,
+              "volume": 1902360.0
             },
             "ma": {
               "ma5": {
-                "value": 46.648,
+                "value": 46.934,
                 "direction": "向上"
               },
               "ma10": {
-                "value": 46.419,
+                "value": 46.605,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 46.537,
-                "direction": "向下"
+                "value": 46.5655,
+                "direction": "向上"
               },
               "ma60": {
-                "value": 48.731167,
+                "value": 48.665,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.472567,
-              "dea": -0.672238,
-              "histogram": 0.399342,
+              "dif": -0.357501,
+              "dea": -0.606355,
+              "histogram": 0.497708,
               "state": "多头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.545606,
-                "dea": -0.722156,
-                "histogram": 0.3531
+                "dif": -0.454219,
+                "dea": -0.668569,
+                "histogram": 0.428698
               }
             },
-            "rsi14": 47.8753,
+            "rsi14": 53.3082,
             "boll20": {
-              "upper": 47.548001,
-              "middle": 46.537,
-              "lower": 45.525999,
+              "upper": 47.646268,
+              "middle": 46.5655,
+              "lower": 45.484732,
               "position": "中轨上方",
-              "bandwidthPct": 4.344936
+              "bandwidthPct": 4.641925
             },
             "volume": {
-              "latest": 81400.0,
-              "average5": 2152821.0,
-              "average20": 3452517.95,
-              "ratioToAverage5": 0.0378,
-              "ratioToAverage20": 0.0236
+              "latest": 1902360.0,
+              "average5": 2257168.6,
+              "average20": 3542099.75,
+              "ratioToAverage5": 0.8428,
+              "ratioToAverage20": 0.5371
             },
             "technicalState": {
-              "label": "震荡",
-              "score": 2,
+              "label": "偏强",
+              "score": 3,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
@@ -112,21 +112,21 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cm60%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f905c0>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+            "tencent: 腾讯K线字段缺失"
           ],
           "verification": {
-            "passed": false,
+            "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 46.91,
-              "timestamp": "2026-07-21 11:01:03"
+              "price": 47.44,
+              "timestamp": "2026-07-21 11:40:06"
             },
             "selectedLastBar": {
-              "close": 46.92,
+              "close": 47.44,
               "timestamp": "2026-07-21 11:30:00"
             },
-            "latestQuoteDifference": 0.01,
-            "latestQuoteDifferencePct": 0.0213,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -140,33 +140,33 @@
             "latestBar": {
               "timestamp": "2026-07-21 11:30:00",
               "open": 46.62,
-              "high": 46.98,
+              "high": 47.45,
               "low": 46.51,
-              "close": 46.92,
-              "volume": 3992540.0
+              "close": 47.44,
+              "volume": 9015080.0
             },
             "ma": {
               "ma5": {
-                "value": 46.498,
-                "direction": "向下"
+                "value": 46.602,
+                "direction": "向上"
               },
               "ma10": {
-                "value": 47.562,
+                "value": 47.614,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 49.4175,
+                "value": 49.4435,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 56.189333,
+                "value": 56.198,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -2.243749,
-              "dea": -2.254457,
-              "histogram": 0.021416,
+              "dif": -2.202267,
+              "dea": -2.24616,
+              "histogram": 0.087786,
               "state": "多头",
               "histogramDirection": "缩小",
               "previous": {
@@ -175,20 +175,20 @@
                 "histogram": -0.135258
               }
             },
-            "rsi14": 28.7663,
+            "rsi14": 32.8509,
             "boll20": {
-              "upper": 53.760604,
-              "middle": 49.4175,
-              "lower": 45.074396,
+              "upper": 53.732375,
+              "middle": 49.4435,
+              "lower": 45.154625,
               "position": "中轨下方",
-              "bandwidthPct": 17.577191
+              "bandwidthPct": 17.348591
             },
             "volume": {
-              "latest": 3992540.0,
-              "average5": 13163891.0,
-              "average20": 13430038.6,
-              "ratioToAverage5": 0.3033,
-              "ratioToAverage20": 0.2973
+              "latest": 9015080.0,
+              "average5": 14168399.0,
+              "average20": 13681165.6,
+              "ratioToAverage5": 0.6363,
+              "ratioToAverage20": 0.6589
             },
             "technicalState": {
               "label": "震荡",
@@ -199,88 +199,87 @@
         },
         "1d": {
           "timeframe": "1d",
-          "selectedSource": "sina",
+          "selectedSource": "tencent",
           "availableSources": [
-            "sina"
+            "sina",
+            "tencent"
           ],
-          "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cday%2C%2C%2C260%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f94410>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
-          ],
+          "sourceErrors": [],
           "verification": {
-            "passed": false,
-            "sameTradingDate": false,
+            "passed": true,
+            "sameTradingDate": true,
             "latestQuote": {
-              "price": 46.91,
-              "timestamp": "2026-07-21 11:01:03"
+              "price": 47.44,
+              "timestamp": "2026-07-21 11:40:06"
             },
             "selectedLastBar": {
-              "close": 46.11,
-              "timestamp": "2026-07-20"
+              "close": 47.44,
+              "timestamp": "2026-07-21"
             },
-            "latestQuoteDifference": 0.8,
-            "latestQuoteDifferencePct": 1.7054,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
-              "otherClose": null,
-              "otherTimestamp": null,
-              "difference": null,
-              "differencePct": null,
+              "otherClose": 46.11,
+              "otherTimestamp": "2026-07-20",
+              "difference": 1.33,
+              "differencePct": 2.8035,
               "passed": false
             }
           },
           "analysis": {
-            "barsCount": 260,
+            "barsCount": 261,
             "latestBar": {
-              "timestamp": "2026-07-20",
-              "open": 48.23,
-              "high": 48.47,
-              "low": 45.3,
-              "close": 46.11,
-              "volume": 61523664.0
+              "timestamp": "2026-07-21",
+              "open": 45.85,
+              "high": 47.45,
+              "low": 45.19,
+              "close": 47.44,
+              "volume": 347589.0
             },
             "ma": {
               "ma5": {
-                "value": 49.722,
+                "value": 48.7,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 52.697,
+                "value": 51.222,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 59.1755,
+                "value": 58.035,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 70.5495,
+                "value": 69.832333,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -5.813461,
-              "dea": -4.742161,
-              "histogram": -2.142599,
+              "dif": -5.847121,
+              "dea": -4.951054,
+              "histogram": -1.792134,
               "state": "空头",
-              "histogramDirection": "扩大",
+              "histogramDirection": "缩小",
               "previous": {
-                "dif": -5.503265,
-                "dea": -4.474337,
-                "histogram": -2.057857
+                "dif": -5.7801,
+                "dea": -4.727038,
+                "histogram": -2.106125
               }
             },
-            "rsi14": 20.9664,
+            "rsi14": 25.284,
             "boll20": {
-              "upper": 73.915486,
-              "middle": 59.1755,
-              "lower": 44.435514,
+              "upper": 72.94113,
+              "middle": 58.035,
+              "lower": 43.12887,
               "position": "中轨下方",
-              "bandwidthPct": 49.817866
+              "bandwidthPct": 51.369448
             },
             "volume": {
-              "latest": 61523664.0,
-              "average5": 51923070.6,
-              "average20": 55960657.1,
-              "ratioToAverage5": 1.1849,
-              "ratioToAverage20": 1.0994
+              "latest": 347589.0,
+              "average5": 506677.2,
+              "average20": 546834.45,
+              "ratioToAverage5": 0.686,
+              "ratioToAverage20": 0.6356
             },
             "technicalState": {
               "label": "偏弱",
@@ -291,15 +290,15 @@
         }
       },
       "errors": [],
-      "allowTechnicalAnalysis": false
+      "allowTechnicalAnalysis": true
     },
     "SH.601600": {
       "code": "SH.601600",
       "name": "中国铝业",
       "latestQuote": {
-        "price": 9.11,
-        "timestamp": "2026-07-21 11:01:02",
-        "verificationPassed": false
+        "price": 9.08,
+        "timestamp": "2026-07-21 11:40:14",
+        "verificationPassed": true
       },
       "timeframes": {
         "15m": {
@@ -309,21 +308,21 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cm15%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1879147200>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+            "tencent: 腾讯K线字段缺失"
           ],
           "verification": {
-            "passed": false,
+            "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.11,
-              "timestamp": "2026-07-21 11:01:02"
+              "price": 9.08,
+              "timestamp": "2026-07-21 11:40:14"
             },
             "selectedLastBar": {
-              "close": 9.07,
-              "timestamp": "2026-07-21 11:15:00"
+              "close": 9.08,
+              "timestamp": "2026-07-21 11:30:00"
             },
-            "latestQuoteDifference": 0.04,
-            "latestQuoteDifferencePct": 0.4391,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -335,61 +334,61 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-07-21 11:15:00",
-              "open": 9.09,
-              "high": 9.11,
+              "timestamp": "2026-07-21 11:30:00",
+              "open": 9.08,
+              "high": 9.13,
               "low": 9.05,
-              "close": 9.07,
-              "volume": 5029300.0
+              "close": 9.08,
+              "volume": 14455900.0
             },
             "ma": {
               "ma5": {
-                "value": 9.118,
-                "direction": "向下"
+                "value": 9.122,
+                "direction": "向上"
               },
               "ma10": {
-                "value": 9.113,
-                "direction": "向下"
+                "value": 9.118,
+                "direction": "向上"
               },
               "ma20": {
-                "value": 9.0685,
+                "value": 9.0805,
                 "direction": "向上"
               },
               "ma60": {
-                "value": 8.808833,
+                "value": 8.8095,
                 "direction": "向上"
               }
             },
             "macd": {
-              "dif": 0.101416,
-              "dea": 0.1144,
-              "histogram": -0.025967,
+              "dif": 0.094012,
+              "dea": 0.11045,
+              "histogram": -0.032875,
               "state": "空头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": 0.111196,
-                "dea": 0.117646,
-                "histogram": -0.012899
+                "dif": 0.102214,
+                "dea": 0.114559,
+                "histogram": -0.02469
               }
             },
-            "rsi14": 54.1328,
+            "rsi14": 54.5913,
             "boll20": {
-              "upper": 9.264283,
-              "middle": 9.0685,
-              "lower": 8.872717,
-              "position": "中轨上方",
-              "bandwidthPct": 4.317871
+              "upper": 9.248604,
+              "middle": 9.0805,
+              "lower": 8.912396,
+              "position": "中轨下方",
+              "bandwidthPct": 3.70253
             },
             "volume": {
-              "latest": 5029300.0,
-              "average5": 23592331.2,
-              "average20": 29752204.6,
-              "ratioToAverage5": 0.2132,
-              "ratioToAverage20": 0.169
+              "latest": 14455900.0,
+              "average5": 22720672.0,
+              "average20": 29442364.1,
+              "ratioToAverage5": 0.6362,
+              "ratioToAverage20": 0.491
             },
             "technicalState": {
               "label": "震荡",
-              "score": 1,
+              "score": -1,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
@@ -401,21 +400,21 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cm60%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f75e80>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+            "tencent: 腾讯K线字段缺失"
           ],
           "verification": {
-            "passed": false,
+            "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.11,
-              "timestamp": "2026-07-21 11:01:02"
+              "price": 9.08,
+              "timestamp": "2026-07-21 11:40:14"
             },
             "selectedLastBar": {
-              "close": 9.09,
+              "close": 9.08,
               "timestamp": "2026-07-21 11:30:00"
             },
-            "latestQuoteDifference": 0.02,
-            "latestQuoteDifferencePct": 0.2195,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -430,32 +429,32 @@
               "timestamp": "2026-07-21 11:30:00",
               "open": 9.22,
               "high": 9.28,
-              "low": 9.05,
-              "close": 9.09,
-              "volume": 55277050.0
+              "low": 9.03,
+              "close": 9.08,
+              "volume": 86521350.0
             },
             "ma": {
               "ma5": {
-                "value": 9.096,
+                "value": 9.094,
                 "direction": "向上"
               },
               "ma10": {
-                "value": 8.815,
+                "value": 8.814,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 8.836,
+                "value": 8.8355,
                 "direction": "向上"
               },
               "ma60": {
-                "value": 8.457,
+                "value": 8.456833,
                 "direction": "向上"
               }
             },
             "macd": {
-              "dif": 0.159543,
-              "dea": 0.117551,
-              "histogram": 0.083984,
+              "dif": 0.158745,
+              "dea": 0.117391,
+              "histogram": 0.082708,
               "state": "多头",
               "histogramDirection": "缩小",
               "previous": {
@@ -464,20 +463,20 @@
                 "histogram": 0.092233
               }
             },
-            "rsi14": 61.7492,
+            "rsi14": 61.372,
             "boll20": {
-              "upper": 9.306208,
-              "middle": 8.836,
-              "lower": 8.365792,
+              "upper": 9.304647,
+              "middle": 8.8355,
+              "lower": 8.366353,
               "position": "中轨上方",
-              "bandwidthPct": 10.643016
+              "bandwidthPct": 10.619594
             },
             "volume": {
-              "latest": 55277050.0,
-              "average5": 111520596.4,
-              "average20": 104787926.6,
-              "ratioToAverage5": 0.4957,
-              "ratioToAverage20": 0.5275
+              "latest": 86521350.0,
+              "average5": 117769456.4,
+              "average20": 106350141.6,
+              "ratioToAverage5": 0.7347,
+              "ratioToAverage20": 0.8136
             },
             "technicalState": {
               "label": "偏强",
@@ -488,99 +487,98 @@
         },
         "1d": {
           "timeframe": "1d",
-          "selectedSource": "sina",
+          "selectedSource": "tencent",
           "availableSources": [
-            "sina"
+            "sina",
+            "tencent"
           ],
-          "sourceErrors": [
-            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cday%2C%2C%2C260%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f91a60>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
-          ],
+          "sourceErrors": [],
           "verification": {
-            "passed": false,
-            "sameTradingDate": false,
+            "passed": true,
+            "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.11,
-              "timestamp": "2026-07-21 11:01:02"
+              "price": 9.08,
+              "timestamp": "2026-07-21 11:40:14"
             },
             "selectedLastBar": {
-              "close": 9.17,
-              "timestamp": "2026-07-20"
+              "close": 9.08,
+              "timestamp": "2026-07-21"
             },
-            "latestQuoteDifference": 0.06,
-            "latestQuoteDifferencePct": 0.6586,
+            "latestQuoteDifference": 0.0,
+            "latestQuoteDifferencePct": 0.0,
             "crossSource": {
-              "otherClose": null,
-              "otherTimestamp": null,
-              "difference": null,
-              "differencePct": null,
+              "otherClose": 9.17,
+              "otherTimestamp": "2026-07-20",
+              "difference": 0.09,
+              "differencePct": 0.9912,
               "passed": false
             }
           },
           "analysis": {
-            "barsCount": 260,
+            "barsCount": 261,
             "latestBar": {
-              "timestamp": "2026-07-20",
-              "open": 8.61,
-              "high": 9.26,
-              "low": 8.53,
-              "close": 9.17,
-              "volume": 501550136.0
+              "timestamp": "2026-07-21",
+              "open": 9.17,
+              "high": 9.3,
+              "low": 8.93,
+              "close": 9.08,
+              "volume": 2933109.0
             },
             "ma": {
               "ma5": {
-                "value": 8.826,
+                "value": 8.87,
                 "direction": "向上"
               },
               "ma10": {
-                "value": 8.513,
+                "value": 8.595,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 8.5225,
+                "value": 8.522,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 10.290667,
+                "value": 10.240667,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.348539,
-              "dea": -0.518785,
-              "histogram": 0.340493,
+              "dif": -0.289705,
+              "dea": -0.472969,
+              "histogram": 0.366528,
               "state": "多头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.427726,
-                "dea": -0.561347,
-                "histogram": 0.267242
+                "dif": -0.348539,
+                "dea": -0.518785,
+                "histogram": 0.340493
               }
             },
-            "rsi14": 51.5592,
+            "rsi14": 50.4093,
             "boll20": {
-              "upper": 9.220178,
-              "middle": 8.5225,
-              "lower": 7.824822,
+              "upper": 9.218063,
+              "middle": 8.522,
+              "lower": 7.825937,
               "position": "中轨上方",
-              "bandwidthPct": 16.372621
+              "bandwidthPct": 16.335677
             },
             "volume": {
-              "latest": 501550136.0,
-              "average5": 414768045.8,
-              "average20": 308113638.4,
-              "ratioToAverage5": 1.2092,
-              "ratioToAverage20": 1.6278
+              "latest": 2933109.0,
+              "average5": 3622035.4,
+              "average20": 3032700.15,
+              "ratioToAverage5": 0.8098,
+              "ratioToAverage20": 0.9672
             },
             "technicalState": {
-              "label": "震荡",
-              "score": 2,
+              "label": "偏强",
+              "score": 3,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
         }
       },
       "errors": [],
-      "allowTechnicalAnalysis": false
+      "allowTechnicalAnalysis": true
     }
   },
   "errors": []
