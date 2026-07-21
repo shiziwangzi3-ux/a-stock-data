@@ -3,7 +3,7 @@ name: Update A-share data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "3-58/5 9-15 * * 1-5"
+    - cron: "42 9,11,14,15 * * 1-5"
       timezone: "Asia/Shanghai"
 
 permissions:
