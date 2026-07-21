@@ -1,48 +1,33 @@
 {
-  "generatedAt": "2026-07-21 10:46:09",
+  "generatedAt": "2026-07-21 11:00:32",
   "timezone": "Asia/Shanghai",
-  "status": "行情核准成功",
-  "allowTradeAnalysis": true,
+  "status": "行情核准失败",
+  "allowTradeAnalysis": false,
   "stocks": {
     "SZ.002460": {
       "code": "SZ.002460",
       "name": "赣锋锂业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-07-21 10:46:09",
-        "latest": 46.67,
+        "timestamp": "2026-07-21 11:01:03",
+        "latest": 46.91,
         "prevClose": 46.11,
         "open": 45.85,
         "high": 47.43,
         "low": 45.19,
-        "volume": 27843180.0,
-        "turnover": 1291423833.09,
-        "change": 0.56,
-        "pctChange": 1.2145,
+        "volume": 29698620.0,
+        "turnover": 1378322758.49,
+        "change": 0.8,
+        "pctChange": 1.735,
         "amplitude": 4.8579
       },
-      "tencent": {
-        "source": "tencent",
-        "timestamp": "2026-07-21 10:46:06",
-        "latest": 46.65,
-        "prevClose": 46.11,
-        "open": 45.85,
-        "high": 47.43,
-        "low": 45.19,
-        "volume": 278369.0,
-        "turnover": 1291130000.0,
-        "turnoverRate": 2.3
-      },
+      "tencent": null,
       "verification": {
-        "passed": true,
-        "errors": [],
-        "differences": {
-          "latest": 0.02,
-          "prevClose": 0.0,
-          "open": 0.0,
-          "high": 0.0,
-          "low": 0.0
-        }
+        "passed": false,
+        "errors": [
+          "source_missing"
+        ],
+        "differences": {}
       }
     },
     "SH.601600": {
@@ -50,42 +35,29 @@
       "name": "中国铝业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-07-21 10:46:08",
-        "latest": 9.18,
+        "timestamp": "2026-07-21 11:01:02",
+        "latest": 9.11,
         "prevClose": 9.17,
         "open": 9.17,
         "high": 9.3,
         "low": 8.93,
-        "volume": 237005580.0,
-        "turnover": 2161769546.0,
-        "change": 0.01,
-        "pctChange": 0.1091,
+        "volume": 255963630.0,
+        "turnover": 2334491076.0,
+        "change": -0.06,
+        "pctChange": -0.6543,
         "amplitude": 4.0349
       },
-      "tencent": {
-        "source": "tencent",
-        "timestamp": "2026-07-21 10:46:08",
-        "latest": 9.18,
-        "prevClose": 9.17,
-        "open": 9.17,
-        "high": 9.3,
-        "low": 8.93,
-        "volume": 2370056.0,
-        "turnover": 2161770000.0,
-        "turnoverRate": 1.8
-      },
+      "tencent": null,
       "verification": {
-        "passed": true,
-        "errors": [],
-        "differences": {
-          "latest": 0.0,
-          "prevClose": 0.0,
-          "open": 0.0,
-          "high": 0.0,
-          "low": 0.0
-        }
+        "passed": false,
+        "errors": [
+          "source_missing"
+        ],
+        "differences": {}
       }
     }
   },
-  "errors": []
+  "errors": [
+    "tencent_error: HTTPSConnectionPool(host='qt.gtimg.cn', port=443): Max retries exceeded with url: /q=sz002460,sh601600&_=1784602832737 (Caused by NewConnectionError(\"HTTPSConnection(host='qt.gtimg.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+  ]
 }

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-21 10:46:12",
+  "generatedAt": "2026-07-21 11:01:04",
   "timezone": "Asia/Shanghai",
-  "status": "技术指标生成成功",
-  "allowTechnicalAnalysis": true,
+  "status": "技术指标生成部分成功",
+  "allowTechnicalAnalysis": false,
   "stocks": {
     "SZ.002460": {
       "code": "SZ.002460",
       "name": "赣锋锂业",
       "latestQuote": {
-        "price": 46.65,
-        "timestamp": "2026-07-21 10:46:06",
-        "verificationPassed": true
+        "price": 46.91,
+        "timestamp": "2026-07-21 11:01:03",
+        "verificationPassed": false
       },
       "timeframes": {
         "15m": {
@@ -20,21 +20,21 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: 腾讯K线字段缺失"
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cm15%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f74560>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
           ],
           "verification": {
-            "passed": true,
+            "passed": false,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 46.65,
-              "timestamp": "2026-07-21 10:46:06"
+              "price": 46.91,
+              "timestamp": "2026-07-21 11:01:03"
             },
             "selectedLastBar": {
-              "close": 46.65,
-              "timestamp": "2026-07-21 11:00:00"
+              "close": 46.96,
+              "timestamp": "2026-07-21 11:15:00"
             },
-            "latestQuoteDifference": 0.0,
-            "latestQuoteDifferencePct": 0.0,
+            "latestQuoteDifference": 0.05,
+            "latestQuoteDifferencePct": 0.1066,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -46,345 +46,57 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-07-21 11:00:00",
-              "open": 46.55,
-              "high": 46.66,
-              "low": 46.52,
-              "close": 46.65,
-              "volume": 110300.0
+              "timestamp": "2026-07-21 11:15:00",
+              "open": 46.86,
+              "high": 46.97,
+              "low": 46.86,
+              "close": 46.96,
+              "volume": 81400.0
             },
             "ma": {
               "ma5": {
-                "value": 46.464,
-                "direction": "向下"
+                "value": 46.648,
+                "direction": "向上"
               },
               "ma10": {
-                "value": 46.301,
+                "value": 46.419,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 46.5675,
+                "value": 46.537,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 48.810833,
+                "value": 48.731167,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.562358,
-              "dea": -0.725506,
-              "histogram": 0.326296,
+              "dif": -0.472567,
+              "dea": -0.672238,
+              "histogram": 0.399342,
               "state": "多头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.620712,
-                "dea": -0.766293,
-                "histogram": 0.291162
+                "dif": -0.545606,
+                "dea": -0.722156,
+                "histogram": 0.3531
               }
             },
-            "rsi14": 44.0268,
+            "rsi14": 47.8753,
             "boll20": {
-              "upper": 47.695913,
-              "middle": 46.5675,
-              "lower": 45.439087,
+              "upper": 47.548001,
+              "middle": 46.537,
+              "lower": 45.525999,
               "position": "中轨上方",
-              "bandwidthPct": 4.846353
+              "bandwidthPct": 4.344936
             },
             "volume": {
-              "latest": 110300.0,
-              "average5": 3145752.2,
-              "average20": 3552733.65,
-              "ratioToAverage5": 0.0351,
-              "ratioToAverage20": 0.031
-            },
-            "technicalState": {
-              "label": "震荡",
-              "score": 1,
-              "note": "仅为指标状态汇总，不直接等同于买卖指令"
-            }
-          }
-        },
-        "60m": {
-          "timeframe": "60m",
-          "selectedSource": "sina",
-          "availableSources": [
-            "sina"
-          ],
-          "sourceErrors": [
-            "tencent: 腾讯K线字段缺失"
-          ],
-          "verification": {
-            "passed": true,
-            "sameTradingDate": true,
-            "latestQuote": {
-              "price": 46.65,
-              "timestamp": "2026-07-21 10:46:06"
-            },
-            "selectedLastBar": {
-              "close": 46.65,
-              "timestamp": "2026-07-21 11:30:00"
-            },
-            "latestQuoteDifference": 0.0,
-            "latestQuoteDifferencePct": 0.0,
-            "crossSource": {
-              "otherClose": null,
-              "otherTimestamp": null,
-              "difference": null,
-              "differencePct": null,
-              "passed": false
-            }
-          },
-          "analysis": {
-            "barsCount": 240,
-            "latestBar": {
-              "timestamp": "2026-07-21 11:30:00",
-              "open": 46.62,
-              "high": 46.89,
-              "low": 46.51,
-              "close": 46.65,
-              "volume": 2098100.0
-            },
-            "ma": {
-              "ma5": {
-                "value": 46.444,
-                "direction": "向下"
-              },
-              "ma10": {
-                "value": 47.535,
-                "direction": "向下"
-              },
-              "ma20": {
-                "value": 49.404,
-                "direction": "向下"
-              },
-              "ma60": {
-                "value": 56.184833,
-                "direction": "向下"
-              }
-            },
-            "macd": {
-              "dif": -2.265287,
-              "dea": -2.258764,
-              "histogram": -0.013046,
-              "state": "空头",
-              "histogramDirection": "缩小",
-              "previous": {
-                "dif": -2.324763,
-                "dea": -2.257134,
-                "histogram": -0.135258
-              }
-            },
-            "rsi14": 26.4431,
-            "boll20": {
-              "upper": 53.77963,
-              "middle": 49.404,
-              "lower": 45.02837,
-              "position": "中轨下方",
-              "bandwidthPct": 17.713666
-            },
-            "volume": {
-              "latest": 2098100.0,
-              "average5": 12785003.0,
-              "average20": 13335316.6,
-              "ratioToAverage5": 0.1641,
-              "ratioToAverage20": 0.1573
-            },
-            "technicalState": {
-              "label": "偏弱",
-              "score": -4,
-              "note": "仅为指标状态汇总，不直接等同于买卖指令"
-            }
-          }
-        },
-        "1d": {
-          "timeframe": "1d",
-          "selectedSource": "tencent",
-          "availableSources": [
-            "sina",
-            "tencent"
-          ],
-          "sourceErrors": [],
-          "verification": {
-            "passed": true,
-            "sameTradingDate": true,
-            "latestQuote": {
-              "price": 46.65,
-              "timestamp": "2026-07-21 10:46:06"
-            },
-            "selectedLastBar": {
-              "close": 46.64,
-              "timestamp": "2026-07-21"
-            },
-            "latestQuoteDifference": 0.01,
-            "latestQuoteDifferencePct": 0.0214,
-            "crossSource": {
-              "otherClose": 46.11,
-              "otherTimestamp": "2026-07-20",
-              "difference": 0.53,
-              "differencePct": 1.1364,
-              "passed": false
-            }
-          },
-          "analysis": {
-            "barsCount": 261,
-            "latestBar": {
-              "timestamp": "2026-07-21",
-              "open": 45.85,
-              "high": 47.43,
-              "low": 45.19,
-              "close": 46.64,
-              "volume": 278503.0
-            },
-            "ma": {
-              "ma5": {
-                "value": 48.54,
-                "direction": "向下"
-              },
-              "ma10": {
-                "value": 51.142,
-                "direction": "向下"
-              },
-              "ma20": {
-                "value": 57.995,
-                "direction": "向下"
-              },
-              "ma60": {
-                "value": 69.819,
-                "direction": "向下"
-              }
-            },
-            "macd": {
-              "dif": -5.910939,
-              "dea": -4.963818,
-              "histogram": -1.894242,
-              "state": "空头",
-              "histogramDirection": "缩小",
-              "previous": {
-                "dif": -5.7801,
-                "dea": -4.727038,
-                "histogram": -2.106125
-              }
-            },
-            "rsi14": 22.8025,
-            "boll20": {
-              "upper": 73.018472,
-              "middle": 57.995,
-              "lower": 42.971528,
-              "position": "中轨下方",
-              "bandwidthPct": 51.809541
-            },
-            "volume": {
-              "latest": 278503.0,
-              "average5": 492860.0,
-              "average20": 543380.15,
-              "ratioToAverage5": 0.5651,
-              "ratioToAverage20": 0.5125
-            },
-            "technicalState": {
-              "label": "偏弱",
-              "score": -4,
-              "note": "仅为指标状态汇总，不直接等同于买卖指令"
-            }
-          }
-        }
-      },
-      "errors": [],
-      "allowTechnicalAnalysis": true
-    },
-    "SH.601600": {
-      "code": "SH.601600",
-      "name": "中国铝业",
-      "latestQuote": {
-        "price": 9.18,
-        "timestamp": "2026-07-21 10:46:08",
-        "verificationPassed": true
-      },
-      "timeframes": {
-        "15m": {
-          "timeframe": "15m",
-          "selectedSource": "sina",
-          "availableSources": [
-            "sina"
-          ],
-          "sourceErrors": [
-            "tencent: 腾讯K线字段缺失"
-          ],
-          "verification": {
-            "passed": true,
-            "sameTradingDate": true,
-            "latestQuote": {
-              "price": 9.18,
-              "timestamp": "2026-07-21 10:46:08"
-            },
-            "selectedLastBar": {
-              "close": 9.16,
-              "timestamp": "2026-07-21 11:00:00"
-            },
-            "latestQuoteDifference": 0.02,
-            "latestQuoteDifferencePct": 0.2179,
-            "crossSource": {
-              "otherClose": null,
-              "otherTimestamp": null,
-              "difference": null,
-              "differencePct": null,
-              "passed": false
-            }
-          },
-          "analysis": {
-            "barsCount": 240,
-            "latestBar": {
-              "timestamp": "2026-07-21 11:00:00",
-              "open": 9.15,
-              "high": 9.16,
-              "low": 9.13,
-              "close": 9.16,
-              "volume": 1042700.0
-            },
-            "ma": {
-              "ma5": {
-                "value": 9.162,
-                "direction": "向上"
-              },
-              "ma10": {
-                "value": 9.121,
-                "direction": "向上"
-              },
-              "ma20": {
-                "value": 9.0655,
-                "direction": "向上"
-              },
-              "ma60": {
-                "value": 8.808833,
-                "direction": "向上"
-              }
-            },
-            "macd": {
-              "dif": 0.11678,
-              "dea": 0.118762,
-              "histogram": -0.003965,
-              "state": "空头",
-              "histogramDirection": "扩大",
-              "previous": {
-                "dif": 0.120024,
-                "dea": 0.119258,
-                "histogram": 0.001532
-              }
-            },
-            "rsi14": 58.0245,
-            "boll20": {
-              "upper": 9.273296,
-              "middle": 9.0655,
-              "lower": 8.857704,
-              "position": "中轨上方",
-              "bandwidthPct": 4.584316
-            },
-            "volume": {
-              "latest": 1042700.0,
-              "average5": 31652065.0,
-              "average20": 31167308.15,
-              "ratioToAverage5": 0.0329,
-              "ratioToAverage20": 0.0335
+              "latest": 81400.0,
+              "average5": 2152821.0,
+              "average20": 3452517.95,
+              "ratioToAverage5": 0.0378,
+              "ratioToAverage20": 0.0236
             },
             "technicalState": {
               "label": "震荡",
@@ -400,21 +112,310 @@
             "sina"
           ],
           "sourceErrors": [
-            "tencent: 腾讯K线字段缺失"
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cm60%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f905c0>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
           ],
           "verification": {
-            "passed": true,
+            "passed": false,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.18,
-              "timestamp": "2026-07-21 10:46:08"
+              "price": 46.91,
+              "timestamp": "2026-07-21 11:01:03"
             },
             "selectedLastBar": {
-              "close": 9.17,
+              "close": 46.92,
               "timestamp": "2026-07-21 11:30:00"
             },
             "latestQuoteDifference": 0.01,
-            "latestQuoteDifferencePct": 0.1089,
+            "latestQuoteDifferencePct": 0.0213,
+            "crossSource": {
+              "otherClose": null,
+              "otherTimestamp": null,
+              "difference": null,
+              "differencePct": null,
+              "passed": false
+            }
+          },
+          "analysis": {
+            "barsCount": 240,
+            "latestBar": {
+              "timestamp": "2026-07-21 11:30:00",
+              "open": 46.62,
+              "high": 46.98,
+              "low": 46.51,
+              "close": 46.92,
+              "volume": 3992540.0
+            },
+            "ma": {
+              "ma5": {
+                "value": 46.498,
+                "direction": "向下"
+              },
+              "ma10": {
+                "value": 47.562,
+                "direction": "向下"
+              },
+              "ma20": {
+                "value": 49.4175,
+                "direction": "向下"
+              },
+              "ma60": {
+                "value": 56.189333,
+                "direction": "向下"
+              }
+            },
+            "macd": {
+              "dif": -2.243749,
+              "dea": -2.254457,
+              "histogram": 0.021416,
+              "state": "多头",
+              "histogramDirection": "缩小",
+              "previous": {
+                "dif": -2.324763,
+                "dea": -2.257134,
+                "histogram": -0.135258
+              }
+            },
+            "rsi14": 28.7663,
+            "boll20": {
+              "upper": 53.760604,
+              "middle": 49.4175,
+              "lower": 45.074396,
+              "position": "中轨下方",
+              "bandwidthPct": 17.577191
+            },
+            "volume": {
+              "latest": 3992540.0,
+              "average5": 13163891.0,
+              "average20": 13430038.6,
+              "ratioToAverage5": 0.3033,
+              "ratioToAverage20": 0.2973
+            },
+            "technicalState": {
+              "label": "震荡",
+              "score": -2,
+              "note": "仅为指标状态汇总，不直接等同于买卖指令"
+            }
+          }
+        },
+        "1d": {
+          "timeframe": "1d",
+          "selectedSource": "sina",
+          "availableSources": [
+            "sina"
+          ],
+          "sourceErrors": [
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sz002460%2Cday%2C%2C%2C260%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f94410>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+          ],
+          "verification": {
+            "passed": false,
+            "sameTradingDate": false,
+            "latestQuote": {
+              "price": 46.91,
+              "timestamp": "2026-07-21 11:01:03"
+            },
+            "selectedLastBar": {
+              "close": 46.11,
+              "timestamp": "2026-07-20"
+            },
+            "latestQuoteDifference": 0.8,
+            "latestQuoteDifferencePct": 1.7054,
+            "crossSource": {
+              "otherClose": null,
+              "otherTimestamp": null,
+              "difference": null,
+              "differencePct": null,
+              "passed": false
+            }
+          },
+          "analysis": {
+            "barsCount": 260,
+            "latestBar": {
+              "timestamp": "2026-07-20",
+              "open": 48.23,
+              "high": 48.47,
+              "low": 45.3,
+              "close": 46.11,
+              "volume": 61523664.0
+            },
+            "ma": {
+              "ma5": {
+                "value": 49.722,
+                "direction": "向下"
+              },
+              "ma10": {
+                "value": 52.697,
+                "direction": "向下"
+              },
+              "ma20": {
+                "value": 59.1755,
+                "direction": "向下"
+              },
+              "ma60": {
+                "value": 70.5495,
+                "direction": "向下"
+              }
+            },
+            "macd": {
+              "dif": -5.813461,
+              "dea": -4.742161,
+              "histogram": -2.142599,
+              "state": "空头",
+              "histogramDirection": "扩大",
+              "previous": {
+                "dif": -5.503265,
+                "dea": -4.474337,
+                "histogram": -2.057857
+              }
+            },
+            "rsi14": 20.9664,
+            "boll20": {
+              "upper": 73.915486,
+              "middle": 59.1755,
+              "lower": 44.435514,
+              "position": "中轨下方",
+              "bandwidthPct": 49.817866
+            },
+            "volume": {
+              "latest": 61523664.0,
+              "average5": 51923070.6,
+              "average20": 55960657.1,
+              "ratioToAverage5": 1.1849,
+              "ratioToAverage20": 1.0994
+            },
+            "technicalState": {
+              "label": "偏弱",
+              "score": -4,
+              "note": "仅为指标状态汇总，不直接等同于买卖指令"
+            }
+          }
+        }
+      },
+      "errors": [],
+      "allowTechnicalAnalysis": false
+    },
+    "SH.601600": {
+      "code": "SH.601600",
+      "name": "中国铝业",
+      "latestQuote": {
+        "price": 9.11,
+        "timestamp": "2026-07-21 11:01:02",
+        "verificationPassed": false
+      },
+      "timeframes": {
+        "15m": {
+          "timeframe": "15m",
+          "selectedSource": "sina",
+          "availableSources": [
+            "sina"
+          ],
+          "sourceErrors": [
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cm15%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1879147200>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+          ],
+          "verification": {
+            "passed": false,
+            "sameTradingDate": true,
+            "latestQuote": {
+              "price": 9.11,
+              "timestamp": "2026-07-21 11:01:02"
+            },
+            "selectedLastBar": {
+              "close": 9.07,
+              "timestamp": "2026-07-21 11:15:00"
+            },
+            "latestQuoteDifference": 0.04,
+            "latestQuoteDifferencePct": 0.4391,
+            "crossSource": {
+              "otherClose": null,
+              "otherTimestamp": null,
+              "difference": null,
+              "differencePct": null,
+              "passed": false
+            }
+          },
+          "analysis": {
+            "barsCount": 240,
+            "latestBar": {
+              "timestamp": "2026-07-21 11:15:00",
+              "open": 9.09,
+              "high": 9.11,
+              "low": 9.05,
+              "close": 9.07,
+              "volume": 5029300.0
+            },
+            "ma": {
+              "ma5": {
+                "value": 9.118,
+                "direction": "向下"
+              },
+              "ma10": {
+                "value": 9.113,
+                "direction": "向下"
+              },
+              "ma20": {
+                "value": 9.0685,
+                "direction": "向上"
+              },
+              "ma60": {
+                "value": 8.808833,
+                "direction": "向上"
+              }
+            },
+            "macd": {
+              "dif": 0.101416,
+              "dea": 0.1144,
+              "histogram": -0.025967,
+              "state": "空头",
+              "histogramDirection": "扩大",
+              "previous": {
+                "dif": 0.111196,
+                "dea": 0.117646,
+                "histogram": -0.012899
+              }
+            },
+            "rsi14": 54.1328,
+            "boll20": {
+              "upper": 9.264283,
+              "middle": 9.0685,
+              "lower": 8.872717,
+              "position": "中轨上方",
+              "bandwidthPct": 4.317871
+            },
+            "volume": {
+              "latest": 5029300.0,
+              "average5": 23592331.2,
+              "average20": 29752204.6,
+              "ratioToAverage5": 0.2132,
+              "ratioToAverage20": 0.169
+            },
+            "technicalState": {
+              "label": "震荡",
+              "score": 1,
+              "note": "仅为指标状态汇总，不直接等同于买卖指令"
+            }
+          }
+        },
+        "60m": {
+          "timeframe": "60m",
+          "selectedSource": "sina",
+          "availableSources": [
+            "sina"
+          ],
+          "sourceErrors": [
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cm60%2C%2C%2C240%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f75e80>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+          ],
+          "verification": {
+            "passed": false,
+            "sameTradingDate": true,
+            "latestQuote": {
+              "price": 9.11,
+              "timestamp": "2026-07-21 11:01:02"
+            },
+            "selectedLastBar": {
+              "close": 9.09,
+              "timestamp": "2026-07-21 11:30:00"
+            },
+            "latestQuoteDifference": 0.02,
+            "latestQuoteDifferencePct": 0.2195,
             "crossSource": {
               "otherClose": null,
               "otherTimestamp": null,
@@ -429,54 +430,54 @@
               "timestamp": "2026-07-21 11:30:00",
               "open": 9.22,
               "high": 9.28,
-              "low": 9.08,
-              "close": 9.17,
-              "volume": 30409000.0
+              "low": 9.05,
+              "close": 9.09,
+              "volume": 55277050.0
             },
             "ma": {
               "ma5": {
-                "value": 9.112,
+                "value": 9.096,
                 "direction": "向上"
               },
               "ma10": {
-                "value": 8.823,
+                "value": 8.815,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 8.84,
+                "value": 8.836,
                 "direction": "向上"
               },
               "ma60": {
-                "value": 8.458333,
+                "value": 8.457,
                 "direction": "向上"
               }
             },
             "macd": {
-              "dif": 0.165925,
-              "dea": 0.118827,
-              "histogram": 0.094195,
+              "dif": 0.159543,
+              "dea": 0.117551,
+              "histogram": 0.083984,
               "state": "多头",
-              "histogramDirection": "扩大",
+              "histogramDirection": "缩小",
               "previous": {
                 "dif": 0.15317,
                 "dea": 0.107053,
                 "histogram": 0.092233
               }
             },
-            "rsi14": 64.9427,
+            "rsi14": 61.7492,
             "boll20": {
-              "upper": 9.320042,
-              "middle": 8.84,
-              "lower": 8.359958,
+              "upper": 9.306208,
+              "middle": 8.836,
+              "lower": 8.365792,
               "position": "中轨上方",
-              "bandwidthPct": 10.860671
+              "bandwidthPct": 10.643016
             },
             "volume": {
-              "latest": 30409000.0,
-              "average5": 106546986.4,
-              "average20": 103544524.1,
-              "ratioToAverage5": 0.2854,
-              "ratioToAverage20": 0.2937
+              "latest": 55277050.0,
+              "average5": 111520596.4,
+              "average20": 104787926.6,
+              "ratioToAverage5": 0.4957,
+              "ratioToAverage20": 0.5275
             },
             "technicalState": {
               "label": "偏强",
@@ -487,98 +488,99 @@
         },
         "1d": {
           "timeframe": "1d",
-          "selectedSource": "tencent",
+          "selectedSource": "sina",
           "availableSources": [
-            "sina",
-            "tencent"
+            "sina"
           ],
-          "sourceErrors": [],
+          "sourceErrors": [
+            "tencent: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /appstock/app/fqkline/get?param=sh601600%2Cday%2C%2C%2C260%2Cqfq (Caused by ConnectTimeoutError(<HTTPSConnection(host='web.ifzq.gtimg.cn', port=443) at 0x7f1878f91a60>, 'Connection to web.ifzq.gtimg.cn timed out. (connect timeout=20)'))"
+          ],
           "verification": {
-            "passed": true,
-            "sameTradingDate": true,
+            "passed": false,
+            "sameTradingDate": false,
             "latestQuote": {
-              "price": 9.18,
-              "timestamp": "2026-07-21 10:46:08"
+              "price": 9.11,
+              "timestamp": "2026-07-21 11:01:02"
             },
             "selectedLastBar": {
-              "close": 9.18,
-              "timestamp": "2026-07-21"
+              "close": 9.17,
+              "timestamp": "2026-07-20"
             },
-            "latestQuoteDifference": 0.0,
-            "latestQuoteDifferencePct": 0.0,
+            "latestQuoteDifference": 0.06,
+            "latestQuoteDifferencePct": 0.6586,
             "crossSource": {
-              "otherClose": 9.17,
-              "otherTimestamp": "2026-07-20",
-              "difference": 0.01,
-              "differencePct": 0.1089,
-              "passed": true
+              "otherClose": null,
+              "otherTimestamp": null,
+              "difference": null,
+              "differencePct": null,
+              "passed": false
             }
           },
           "analysis": {
-            "barsCount": 261,
+            "barsCount": 260,
             "latestBar": {
-              "timestamp": "2026-07-21",
-              "open": 9.17,
-              "high": 9.3,
-              "low": 8.93,
-              "close": 9.18,
-              "volume": 2372260.0
+              "timestamp": "2026-07-20",
+              "open": 8.61,
+              "high": 9.26,
+              "low": 8.53,
+              "close": 9.17,
+              "volume": 501550136.0
             },
             "ma": {
               "ma5": {
-                "value": 8.89,
+                "value": 8.826,
                 "direction": "向上"
               },
               "ma10": {
-                "value": 8.605,
+                "value": 8.513,
                 "direction": "向上"
               },
               "ma20": {
-                "value": 8.527,
-                "direction": "向上"
+                "value": 8.5225,
+                "direction": "向下"
               },
               "ma60": {
-                "value": 10.242333,
+                "value": 10.290667,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.281728,
-              "dea": -0.471374,
-              "histogram": 0.379291,
+              "dif": -0.348539,
+              "dea": -0.518785,
+              "histogram": 0.340493,
               "state": "多头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.348539,
-                "dea": -0.518785,
-                "histogram": 0.340493
+                "dif": -0.427726,
+                "dea": -0.561347,
+                "histogram": 0.267242
               }
             },
-            "rsi14": 51.6817,
+            "rsi14": 51.5592,
             "boll20": {
-              "upper": 9.240249,
-              "middle": 8.527,
-              "lower": 7.813751,
+              "upper": 9.220178,
+              "middle": 8.5225,
+              "lower": 7.824822,
               "position": "中轨上方",
-              "bandwidthPct": 16.729187
+              "bandwidthPct": 16.372621
             },
             "volume": {
-              "latest": 2372260.0,
-              "average5": 3509865.6,
-              "average20": 3004657.7,
-              "ratioToAverage5": 0.6759,
-              "ratioToAverage20": 0.7895
+              "latest": 501550136.0,
+              "average5": 414768045.8,
+              "average20": 308113638.4,
+              "ratioToAverage5": 1.2092,
+              "ratioToAverage20": 1.6278
             },
             "technicalState": {
-              "label": "偏强",
-              "score": 3,
+              "label": "震荡",
+              "score": 2,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
         }
       },
       "errors": [],
-      "allowTechnicalAnalysis": true
+      "allowTechnicalAnalysis": false
     }
   },
   "errors": []
