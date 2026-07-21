@@ -8,7 +8,7 @@ on:
     paths:
       - "technical_data.py"
       - ".github/workflows/update.yml"
-schedule:
+  schedule:
     - cron: "3-58/5 1-7 * * 1-5"
 permissions:
   contents: write
