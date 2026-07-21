@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21 11:40:31",
+  "generatedAt": "2026-07-21 11:45:58",
   "timezone": "Asia/Shanghai",
   "status": "技术指标生成成功",
   "allowTechnicalAnalysis": true,
@@ -9,7 +9,7 @@
       "name": "赣锋锂业",
       "latestQuote": {
         "price": 47.44,
-        "timestamp": "2026-07-21 11:40:06",
+        "timestamp": "2026-07-21 11:45:06",
         "verificationPassed": true
       },
       "timeframes": {
@@ -27,7 +27,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 47.44,
-              "timestamp": "2026-07-21 11:40:06"
+              "timestamp": "2026-07-21 11:45:06"
             },
             "selectedLastBar": {
               "close": 47.44,
@@ -119,7 +119,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 47.44,
-              "timestamp": "2026-07-21 11:40:06"
+              "timestamp": "2026-07-21 11:45:06"
             },
             "selectedLastBar": {
               "close": 47.44,
@@ -210,7 +210,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 47.44,
-              "timestamp": "2026-07-21 11:40:06"
+              "timestamp": "2026-07-21 11:45:06"
             },
             "selectedLastBar": {
               "close": 47.44,
@@ -297,7 +297,7 @@
       "name": "中国铝业",
       "latestQuote": {
         "price": 9.08,
-        "timestamp": "2026-07-21 11:40:14",
+        "timestamp": "2026-07-21 11:45:44",
         "verificationPassed": true
       },
       "timeframes": {
@@ -315,7 +315,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.08,
-              "timestamp": "2026-07-21 11:40:14"
+              "timestamp": "2026-07-21 11:45:44"
             },
             "selectedLastBar": {
               "close": 9.08,
@@ -407,7 +407,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.08,
-              "timestamp": "2026-07-21 11:40:14"
+              "timestamp": "2026-07-21 11:45:44"
             },
             "selectedLastBar": {
               "close": 9.08,
@@ -498,7 +498,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.08,
-              "timestamp": "2026-07-21 11:40:14"
+              "timestamp": "2026-07-21 11:45:44"
             },
             "selectedLastBar": {
               "close": 9.08,
