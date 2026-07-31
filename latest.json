@@ -1,48 +1,31 @@
 {
-  "generatedAt": "2026-07-30 18:34:34",
+  "generatedAt": "2026-07-31 19:11:37",
   "timezone": "Asia/Shanghai",
-  "status": "行情核准成功",
-  "allowTradeAnalysis": true,
+  "status": "行情核准失败",
+  "allowTradeAnalysis": false,
   "stocks": {
     "SZ.002460": {
       "code": "SZ.002460",
       "name": "赣锋锂业",
-      "eastmoney": {
-        "source": "sina",
-        "timestamp": "2026-07-30 16:29:45",
-        "latest": 49.93,
-        "prevClose": 49.92,
-        "open": 49.48,
-        "high": 50.69,
-        "low": 49.36,
-        "volume": 45390024.0,
-        "turnover": 2276956373.95,
-        "change": 0.01,
-        "pctChange": 0.02,
-        "amplitude": 2.6643
-      },
+      "eastmoney": null,
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-07-30 16:14:36",
-        "latest": 49.93,
-        "prevClose": 49.92,
-        "open": 49.48,
-        "high": 50.69,
-        "low": 49.36,
-        "volume": 453900.0,
-        "turnover": 2276960000.0,
-        "turnoverRate": 3.75
+        "timestamp": "2026-07-31 16:14:03",
+        "latest": 49.71,
+        "prevClose": 49.93,
+        "open": 49.66,
+        "high": 50.92,
+        "low": 49.6,
+        "volume": 437785.0,
+        "turnover": 2190550000.0,
+        "turnoverRate": 3.61
       },
       "verification": {
-        "passed": true,
-        "errors": [],
-        "differences": {
-          "latest": 0.0,
-          "prevClose": 0.0,
-          "open": 0.0,
-          "high": 0.0,
-          "low": 0.0
-        }
+        "passed": false,
+        "errors": [
+          "source_missing"
+        ],
+        "differences": {}
       }
     },
     "SH.601600": {
@@ -50,29 +33,29 @@
       "name": "中国铝业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-07-30 15:34:59",
-        "latest": 9.55,
-        "prevClose": 9.52,
-        "open": 9.55,
-        "high": 9.87,
-        "low": 9.51,
-        "volume": 252251912.0,
-        "turnover": 2434851444.0,
-        "change": 0.03,
-        "pctChange": 0.3151,
-        "amplitude": 3.7815
+        "timestamp": "2026-07-31 15:34:59",
+        "latest": 9.57,
+        "prevClose": 9.55,
+        "open": 9.51,
+        "high": 9.71,
+        "low": 9.48,
+        "volume": 232996532.0,
+        "turnover": 2239509017.0,
+        "change": 0.02,
+        "pctChange": 0.2094,
+        "amplitude": 2.4084
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-07-30 16:14:36",
-        "latest": 9.55,
-        "prevClose": 9.52,
-        "open": 9.55,
-        "high": 9.87,
-        "low": 9.51,
-        "volume": 2522519.0,
-        "turnover": 2434850000.0,
-        "turnoverRate": 1.91
+        "timestamp": "2026-07-31 16:14:33",
+        "latest": 9.57,
+        "prevClose": 9.55,
+        "open": 9.51,
+        "high": 9.71,
+        "low": 9.48,
+        "volume": 2329965.0,
+        "turnover": 2239510000.0,
+        "turnoverRate": 1.76
       },
       "verification": {
         "passed": true,
@@ -87,5 +70,7 @@
       }
     }
   },
-  "errors": []
+  "errors": [
+    "SZ.002460_eastmoney_error: fetch_sina: HTTPSConnectionPool(host='hq.sinajs.cn', port=443): Max retries exceeded with url: /list=sz002460 (Caused by NewConnectionError(\"HTTPSConnection(host='hq.sinajs.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))；fetch_netease: HTTPConnectionPool(host='api.money.126.net', port=80): Max retries exceeded with url: /data/feed/1002460,money.api (Caused by NameResolutionError(\"HTTPConnection(host='api.money.126.net', port=80): Failed to resolve 'api.money.126.net' ([Errno -2] Name or service not known)\"))"
+  ]
 }
