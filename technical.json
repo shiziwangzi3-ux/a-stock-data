@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13 15:00:26",
+  "generatedAt": "2026-08-13 19:10:12",
   "timezone": "Asia/Shanghai",
   "status": "技术指标生成成功",
   "allowTechnicalAnalysis": true,
@@ -9,7 +9,7 @@
       "name": "赣锋锂业",
       "latestQuote": {
         "price": 53.16,
-        "timestamp": "2026-08-13 15:00:00",
+        "timestamp": "2026-08-13 16:14:15",
         "verificationPassed": true
       },
       "timeframes": {
@@ -27,7 +27,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 53.16,
-              "timestamp": "2026-08-13 15:00:00"
+              "timestamp": "2026-08-13 16:14:15"
             },
             "selectedLastBar": {
               "close": 53.16,
@@ -119,7 +119,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 53.16,
-              "timestamp": "2026-08-13 15:00:00"
+              "timestamp": "2026-08-13 16:14:15"
             },
             "selectedLastBar": {
               "close": 53.16,
@@ -199,7 +199,7 @@
         },
         "1d": {
           "timeframe": "1d",
-          "selectedSource": "tencent",
+          "selectedSource": "sina",
           "availableSources": [
             "sina",
             "tencent"
@@ -210,7 +210,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 53.16,
-              "timestamp": "2026-08-13 15:00:00"
+              "timestamp": "2026-08-13 16:14:15"
             },
             "selectedLastBar": {
               "close": 53.16,
@@ -219,22 +219,22 @@
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
             "crossSource": {
-              "otherClose": 53.9,
-              "otherTimestamp": "2026-08-12",
-              "difference": 0.74,
-              "differencePct": 1.392,
-              "passed": false
+              "otherClose": 53.16,
+              "otherTimestamp": "2026-08-13",
+              "difference": 0.0,
+              "differencePct": 0.0,
+              "passed": true
             }
           },
           "analysis": {
-            "barsCount": 261,
+            "barsCount": 260,
             "latestBar": {
               "timestamp": "2026-08-13",
               "open": 53.58,
               "high": 54.03,
               "low": 52.9,
               "close": 53.16,
-              "volume": 352143.0
+              "volume": 35214320.0
             },
             "ma": {
               "ma5": {
@@ -250,23 +250,23 @@
                 "direction": "向上"
               },
               "ma60": {
-                "value": 60.841,
+                "value": 60.936,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -1.182203,
-              "dea": -2.240895,
-              "histogram": 2.117383,
+              "dif": -1.205993,
+              "dea": -2.269961,
+              "histogram": 2.127937,
               "state": "多头",
               "histogramDirection": "缩小",
               "previous": {
-                "dif": -1.344647,
-                "dea": -2.505568,
-                "histogram": 2.321841
+                "dif": -1.369952,
+                "dea": -2.535953,
+                "histogram": 2.332001
               }
             },
-            "rsi14": 47.7508,
+            "rsi14": 47.6584,
             "boll20": {
               "upper": 55.199859,
               "middle": 50.668,
@@ -275,9 +275,9 @@
               "bandwidthPct": 17.888445
             },
             "volume": {
-              "latest": 352143.0,
-              "average5": 402934.2,
-              "average20": 463627.35,
+              "latest": 35214320.0,
+              "average5": 40293414.2,
+              "average20": 46362733.95,
               "ratioToAverage5": 0.8739,
               "ratioToAverage20": 0.7595
             },
@@ -297,7 +297,7 @@
       "name": "中国铝业",
       "latestQuote": {
         "price": 9.38,
-        "timestamp": "2026-08-13 15:00:21",
+        "timestamp": "2026-08-13 16:14:33",
         "verificationPassed": true
       },
       "timeframes": {
@@ -315,7 +315,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.38,
-              "timestamp": "2026-08-13 15:00:21"
+              "timestamp": "2026-08-13 16:14:33"
             },
             "selectedLastBar": {
               "close": 9.38,
@@ -407,7 +407,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.38,
-              "timestamp": "2026-08-13 15:00:21"
+              "timestamp": "2026-08-13 16:14:33"
             },
             "selectedLastBar": {
               "close": 9.38,
@@ -487,7 +487,7 @@
         },
         "1d": {
           "timeframe": "1d",
-          "selectedSource": "tencent",
+          "selectedSource": "sina",
           "availableSources": [
             "sina",
             "tencent"
@@ -498,7 +498,7 @@
             "sameTradingDate": true,
             "latestQuote": {
               "price": 9.38,
-              "timestamp": "2026-08-13 15:00:21"
+              "timestamp": "2026-08-13 16:14:33"
             },
             "selectedLastBar": {
               "close": 9.38,
@@ -507,22 +507,22 @@
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
             "crossSource": {
-              "otherClose": 9.94,
-              "otherTimestamp": "2026-08-12",
-              "difference": 0.56,
-              "differencePct": 5.9701,
-              "passed": false
+              "otherClose": 9.38,
+              "otherTimestamp": "2026-08-13",
+              "difference": 0.0,
+              "differencePct": 0.0,
+              "passed": true
             }
           },
           "analysis": {
-            "barsCount": 261,
+            "barsCount": 260,
             "latestBar": {
               "timestamp": "2026-08-13",
               "open": 9.76,
               "high": 9.77,
               "low": 9.36,
               "close": 9.38,
-              "volume": 3265295.0
+              "volume": 326529540.0
             },
             "ma": {
               "ma5": {
@@ -563,9 +563,9 @@
               "bandwidthPct": 14.257826
             },
             "volume": {
-              "latest": 3265295.0,
-              "average5": 2810776.6,
-              "average20": 2844672.5,
+              "latest": 326529540.0,
+              "average5": 281077657.4,
+              "average20": 284467257.65,
               "ratioToAverage5": 1.1617,
               "ratioToAverage20": 1.1479
             },
