@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20 12:03:14",
+  "generatedAt": "2026-08-20 15:26:01",
   "timezone": "Asia/Shanghai",
   "status": "技术指标生成成功",
   "allowTechnicalAnalysis": true,
@@ -8,8 +8,8 @@
       "code": "SZ.002460",
       "name": "赣锋锂业",
       "latestQuote": {
-        "price": 51.79,
-        "timestamp": "2026-08-20 12:02:12",
+        "price": 51.27,
+        "timestamp": "2026-08-20 15:24:45",
         "verificationPassed": true
       },
       "timeframes": {
@@ -26,12 +26,12 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 51.79,
-              "timestamp": "2026-08-20 12:02:12"
+              "price": 51.27,
+              "timestamp": "2026-08-20 15:24:45"
             },
             "selectedLastBar": {
-              "close": 51.79,
-              "timestamp": "2026-08-20 11:30:00"
+              "close": 51.27,
+              "timestamp": "2026-08-20 15:00:00"
             },
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
@@ -46,57 +46,57 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-08-20 11:30:00",
-              "open": 51.56,
-              "high": 51.82,
-              "low": 51.5,
-              "close": 51.79,
-              "volume": 1030513.0
+              "timestamp": "2026-08-20 15:00:00",
+              "open": 51.33,
+              "high": 51.39,
+              "low": 51.21,
+              "close": 51.27,
+              "volume": 1893818.0
             },
             "ma": {
               "ma5": {
-                "value": 51.822,
+                "value": 51.3,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 51.875,
+                "value": 51.426,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 52.057,
+                "value": 51.687,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 53.149667,
+                "value": 52.803,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.337986,
-              "dea": -0.357607,
-              "histogram": 0.039242,
+              "dif": -0.356998,
+              "dea": -0.361705,
+              "histogram": 0.009412,
               "state": "多头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.349207,
-                "dea": -0.362512,
-                "histogram": 0.02661
+                "dif": -0.362345,
+                "dea": -0.362881,
+                "histogram": 0.001071
               }
             },
-            "rsi14": 37.5124,
+            "rsi14": 32.1015,
             "boll20": {
-              "upper": 52.563798,
-              "middle": 52.057,
-              "lower": 51.550202,
+              "upper": 52.295805,
+              "middle": 51.687,
+              "lower": 51.078195,
               "position": "中轨下方",
-              "bandwidthPct": 1.947088
+              "bandwidthPct": 2.355739
             },
             "volume": {
-              "latest": 1030513.0,
-              "average5": 1165943.4,
-              "average20": 1662375.75,
-              "ratioToAverage5": 0.8838,
-              "ratioToAverage20": 0.6199
+              "latest": 1893818.0,
+              "average5": 1194885.6,
+              "average20": 1575218.65,
+              "ratioToAverage5": 1.5849,
+              "ratioToAverage20": 1.2023
             },
             "technicalState": {
               "label": "震荡",
@@ -118,12 +118,12 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 51.79,
-              "timestamp": "2026-08-20 12:02:12"
+              "price": 51.27,
+              "timestamp": "2026-08-20 15:24:45"
             },
             "selectedLastBar": {
-              "close": 51.79,
-              "timestamp": "2026-08-20 11:30:00"
+              "close": 51.27,
+              "timestamp": "2026-08-20 15:00:00"
             },
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
@@ -138,57 +138,57 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-08-20 11:30:00",
-              "open": 52.03,
-              "high": 52.18,
-              "low": 51.5,
-              "close": 51.79,
-              "volume": 3986117.0
+              "timestamp": "2026-08-20 15:00:00",
+              "open": 51.32,
+              "high": 51.48,
+              "low": 51.15,
+              "close": 51.27,
+              "volume": 5125828.0
             },
             "ma": {
               "ma5": {
-                "value": 51.962,
+                "value": 51.624,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 52.68,
+                "value": 52.201,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 53.18,
+                "value": 52.967,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 52.604,
+                "value": 52.643833,
                 "direction": "向上"
               }
             },
             "macd": {
-              "dif": -0.326496,
-              "dea": -0.066222,
-              "histogram": -0.520548,
+              "dif": -0.467947,
+              "dea": -0.20103,
+              "histogram": -0.533833,
               "state": "空头",
               "histogramDirection": "缩小",
               "previous": {
-                "dif": -0.268356,
-                "dea": -0.001154,
-                "histogram": -0.534405
+                "dif": -0.406617,
+                "dea": -0.134301,
+                "histogram": -0.544632
               }
             },
-            "rsi14": 36.3164,
+            "rsi14": 32.3127,
             "boll20": {
-              "upper": 54.741038,
-              "middle": 53.18,
-              "lower": 51.618962,
+              "upper": 54.87338,
+              "middle": 52.967,
+              "lower": 51.06062,
               "position": "中轨下方",
-              "bandwidthPct": 5.870771
+              "bandwidthPct": 7.198368
             },
             "volume": {
-              "latest": 3986117.0,
-              "average5": 6649503.0,
-              "average20": 7838359.7,
-              "ratioToAverage5": 0.5995,
-              "ratioToAverage20": 0.5085
+              "latest": 5125828.0,
+              "average5": 6300874.6,
+              "average20": 7695723.45,
+              "ratioToAverage5": 0.8135,
+              "ratioToAverage20": 0.6661
             },
             "technicalState": {
               "label": "偏弱",
@@ -209,11 +209,11 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 51.79,
-              "timestamp": "2026-08-20 12:02:12"
+              "price": 51.27,
+              "timestamp": "2026-08-20 15:24:45"
             },
             "selectedLastBar": {
-              "close": 51.79,
+              "close": 51.27,
               "timestamp": "2026-08-20"
             },
             "latestQuoteDifference": 0.0,
@@ -221,9 +221,9 @@
             "crossSource": {
               "otherClose": 51.72,
               "otherTimestamp": "2026-08-19",
-              "difference": 0.07,
-              "differencePct": 0.1352,
-              "passed": true
+              "difference": 0.45,
+              "differencePct": 0.8777,
+              "passed": false
             }
           },
           "analysis": {
@@ -232,32 +232,32 @@
               "timestamp": "2026-08-20",
               "open": 52.48,
               "high": 52.58,
-              "low": 51.5,
-              "close": 51.79,
-              "volume": 138203.0
+              "low": 51.15,
+              "close": 51.27,
+              "volume": 233537.0
             },
             "ma": {
               "ma5": {
-                "value": 53.046,
+                "value": 52.942,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 53.266,
+                "value": 53.214,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 51.8845,
+                "value": 51.8585,
                 "direction": "向上"
               },
               "ma60": {
-                "value": 59.030167,
+                "value": 59.0215,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.762607,
-              "dea": -1.252306,
-              "histogram": 0.979397,
+              "dif": -0.804089,
+              "dea": -1.260602,
+              "histogram": 0.913027,
               "state": "多头",
               "histogramDirection": "缩小",
               "previous": {
@@ -266,20 +266,20 @@
                 "histogram": 1.283226
               }
             },
-            "rsi14": 43.4207,
+            "rsi14": 41.8436,
             "boll20": {
-              "upper": 55.405247,
-              "middle": 51.8845,
-              "lower": 48.363753,
+              "upper": 55.38932,
+              "middle": 51.8585,
+              "lower": 48.32768,
               "position": "中轨下方",
-              "bandwidthPct": 13.571479
+              "bandwidthPct": 13.617132
             },
             "volume": {
-              "latest": 138203.0,
-              "average5": 288762.2,
-              "average20": 390566.2,
-              "ratioToAverage5": 0.4786,
-              "ratioToAverage20": 0.3539
+              "latest": 233537.0,
+              "average5": 307829.0,
+              "average20": 395332.9,
+              "ratioToAverage5": 0.7587,
+              "ratioToAverage20": 0.5907
             },
             "technicalState": {
               "label": "震荡",
@@ -296,8 +296,8 @@
       "code": "SH.601600",
       "name": "中国铝业",
       "latestQuote": {
-        "price": 9.19,
-        "timestamp": "2026-08-20 12:03:09",
+        "price": 9.17,
+        "timestamp": "2026-08-20 15:25:55",
         "verificationPassed": true
       },
       "timeframes": {
@@ -314,12 +314,12 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.19,
-              "timestamp": "2026-08-20 12:03:09"
+              "price": 9.17,
+              "timestamp": "2026-08-20 15:25:55"
             },
             "selectedLastBar": {
-              "close": 9.19,
-              "timestamp": "2026-08-20 11:30:00"
+              "close": 9.17,
+              "timestamp": "2026-08-20 15:00:00"
             },
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
@@ -334,61 +334,61 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-08-20 11:30:00",
-              "open": 9.21,
-              "high": 9.22,
-              "low": 9.16,
-              "close": 9.19,
-              "volume": 10571759.0
+              "timestamp": "2026-08-20 15:00:00",
+              "open": 9.16,
+              "high": 9.18,
+              "low": 9.15,
+              "close": 9.17,
+              "volume": 9857662.0
             },
             "ma": {
               "ma5": {
-                "value": 9.256,
-                "direction": "向下"
+                "value": 9.154,
+                "direction": "走平"
               },
               "ma10": {
-                "value": 9.337,
+                "value": 9.173,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 9.3355,
+                "value": 9.269,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 9.383333,
+                "value": 9.365333,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.033481,
-              "dea": -0.015955,
-              "histogram": -0.035052,
+              "dif": -0.059089,
+              "dea": -0.049919,
+              "histogram": -0.018339,
               "state": "空头",
-              "histogramDirection": "扩大",
+              "histogramDirection": "缩小",
               "previous": {
-                "dif": -0.024121,
-                "dea": -0.011573,
-                "histogram": -0.025095
+                "dif": -0.060647,
+                "dea": -0.047627,
+                "histogram": -0.02604
               }
             },
-            "rsi14": 38.0427,
+            "rsi14": 40.2076,
             "boll20": {
-              "upper": 9.500118,
-              "middle": 9.3355,
-              "lower": 9.170882,
+              "upper": 9.504279,
+              "middle": 9.269,
+              "lower": 9.033721,
               "position": "中轨下方",
-              "bandwidthPct": 3.526704
+              "bandwidthPct": 5.076676
             },
             "volume": {
-              "latest": 10571759.0,
-              "average5": 11953781.2,
-              "average20": 10957953.55,
-              "ratioToAverage5": 0.8844,
-              "ratioToAverage20": 0.9648
+              "latest": 9857662.0,
+              "average5": 7123054.4,
+              "average20": 11790895.45,
+              "ratioToAverage5": 1.3839,
+              "ratioToAverage20": 0.836
             },
             "technicalState": {
               "label": "偏弱",
-              "score": -3,
+              "score": -4,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
@@ -406,12 +406,12 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.19,
-              "timestamp": "2026-08-20 12:03:09"
+              "price": 9.17,
+              "timestamp": "2026-08-20 15:25:55"
             },
             "selectedLastBar": {
-              "close": 9.19,
-              "timestamp": "2026-08-20 11:30:00"
+              "close": 9.17,
+              "timestamp": "2026-08-20 15:00:00"
             },
             "latestQuoteDifference": 0.0,
             "latestQuoteDifferencePct": 0.0,
@@ -426,61 +426,61 @@
           "analysis": {
             "barsCount": 240,
             "latestBar": {
-              "timestamp": "2026-08-20 11:30:00",
-              "open": 9.35,
-              "high": 9.38,
-              "low": 9.16,
-              "close": 9.19,
-              "volume": 44907906.0
+              "timestamp": "2026-08-20 15:00:00",
+              "open": 9.13,
+              "high": 9.18,
+              "low": 9.12,
+              "close": 9.17,
+              "volume": 29762572.0
             },
             "ma": {
               "ma5": {
-                "value": 9.312,
+                "value": 9.236,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 9.366,
+                "value": 9.312,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 9.361,
+                "value": 9.3345,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 9.606167,
+                "value": 9.592667,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": -0.089963,
-              "dea": -0.083567,
-              "histogram": -0.012791,
+              "dif": -0.106694,
+              "dea": -0.091107,
+              "histogram": -0.031173,
               "state": "空头",
               "histogramDirection": "扩大",
               "previous": {
-                "dif": -0.079676,
-                "dea": -0.081968,
-                "histogram": 0.004585
+                "dif": -0.101783,
+                "dea": -0.08721,
+                "histogram": -0.029146
               }
             },
-            "rsi14": 35.0844,
+            "rsi14": 35.7784,
             "boll20": {
-              "upper": 9.566124,
-              "middle": 9.361,
-              "lower": 9.155876,
+              "upper": 9.570252,
+              "middle": 9.3345,
+              "lower": 9.098748,
               "position": "中轨下方",
-              "bandwidthPct": 4.382531
+              "bandwidthPct": 5.051197
             },
             "volume": {
-              "latest": 44907906.0,
-              "average5": 43831814.2,
-              "average20": 40892032.85,
-              "ratioToAverage5": 1.0246,
-              "ratioToAverage20": 1.0982
+              "latest": 29762572.0,
+              "average5": 47163581.8,
+              "average20": 38633219.75,
+              "ratioToAverage5": 0.631,
+              "ratioToAverage20": 0.7704
             },
             "technicalState": {
               "label": "偏弱",
-              "score": -3,
+              "score": -4,
               "note": "仅为指标状态汇总，不直接等同于买卖指令"
             }
           }
@@ -497,11 +497,11 @@
             "passed": true,
             "sameTradingDate": true,
             "latestQuote": {
-              "price": 9.19,
-              "timestamp": "2026-08-20 12:03:09"
+              "price": 9.17,
+              "timestamp": "2026-08-20 15:25:55"
             },
             "selectedLastBar": {
-              "close": 9.19,
+              "close": 9.17,
               "timestamp": "2026-08-20"
             },
             "latestQuoteDifference": 0.0,
@@ -509,8 +509,8 @@
             "crossSource": {
               "otherClose": 9.35,
               "otherTimestamp": "2026-08-19",
-              "difference": 0.16,
-              "differencePct": 1.741,
+              "difference": 0.18,
+              "differencePct": 1.9629,
               "passed": false
             }
           },
@@ -520,32 +520,32 @@
               "timestamp": "2026-08-20",
               "open": 9.42,
               "high": 9.67,
-              "low": 9.16,
-              "close": 9.19,
-              "volume": 1393764.0
+              "low": 9.12,
+              "close": 9.17,
+              "volume": 1998268.0
             },
             "ma": {
               "ma5": {
-                "value": 9.358,
+                "value": 9.354,
                 "direction": "向下"
               },
               "ma10": {
-                "value": 9.5095,
+                "value": 9.5075,
                 "direction": "向下"
               },
               "ma20": {
-                "value": 9.44425,
+                "value": 9.44325,
                 "direction": "向下"
               },
               "ma60": {
-                "value": 9.376417,
+                "value": 9.376083,
                 "direction": "向下"
               }
             },
             "macd": {
-              "dif": 0.063357,
-              "dea": 0.101712,
-              "histogram": -0.076711,
+              "dif": 0.061761,
+              "dea": 0.101393,
+              "histogram": -0.079264,
               "state": "空头",
               "histogramDirection": "扩大",
               "previous": {
@@ -554,20 +554,20 @@
                 "histogram": -0.041549
               }
             },
-            "rsi14": 46.9795,
+            "rsi14": 46.6374,
             "boll20": {
-              "upper": 9.840652,
-              "middle": 9.44425,
-              "lower": 9.047848,
+              "upper": 9.842305,
+              "middle": 9.44325,
+              "lower": 9.044195,
               "position": "中轨下方",
-              "bandwidthPct": 8.394574
+              "bandwidthPct": 8.451642
             },
             "volume": {
-              "latest": 1393764.0,
-              "average5": 1424758.6,
-              "average20": 2224151.7,
-              "ratioToAverage5": 0.9782,
-              "ratioToAverage20": 0.6266
+              "latest": 1998268.0,
+              "average5": 1545659.4,
+              "average20": 2254376.9,
+              "ratioToAverage5": 1.2928,
+              "ratioToAverage20": 0.8864
             },
             "technicalState": {
               "label": "震荡",
