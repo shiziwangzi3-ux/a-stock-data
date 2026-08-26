@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26 15:29:48",
+  "generatedAt": "2026-08-26 16:22:19",
   "timezone": "Asia/Shanghai",
   "status": "行情核准成功",
   "allowTradeAnalysis": true,
@@ -9,7 +9,7 @@
       "name": "赣锋锂业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-08-26 15:29:45",
+        "timestamp": "2026-08-26 15:35:00",
         "latest": 53.5,
         "prevClose": 53.05,
         "open": 52.7,
@@ -23,7 +23,7 @@
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-08-26 15:29:45",
+        "timestamp": "2026-08-26 16:14:36",
         "latest": 53.5,
         "prevClose": 53.05,
         "open": 52.7,
@@ -50,7 +50,7 @@
       "name": "中国铝业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-08-26 15:29:48",
+        "timestamp": "2026-08-26 15:34:59",
         "latest": 9.59,
         "prevClose": 9.37,
         "open": 9.38,
@@ -64,7 +64,7 @@
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-08-26 15:29:45",
+        "timestamp": "2026-08-26 16:14:41",
         "latest": 9.59,
         "prevClose": 9.37,
         "open": 9.38,
