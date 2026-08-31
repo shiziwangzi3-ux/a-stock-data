@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31 15:36:51",
+  "generatedAt": "2026-08-31 23:24:52",
   "timezone": "Asia/Shanghai",
   "status": "行情核准成功",
   "allowTradeAnalysis": true,
@@ -23,7 +23,7 @@
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-08-31 15:36:06",
+        "timestamp": "2026-08-31 16:14:06",
         "latest": 53.89,
         "prevClose": 55.0,
         "open": 54.23,
@@ -64,7 +64,7 @@
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-08-31 15:36:46",
+        "timestamp": "2026-08-31 16:14:46",
         "latest": 9.77,
         "prevClose": 9.82,
         "open": 9.68,
