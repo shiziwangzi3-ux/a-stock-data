@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22 14:45:46",
+  "generatedAt": "2026-09-22 20:49:00",
   "timezone": "Asia/Shanghai",
   "status": "行情核准成功",
   "allowTradeAnalysis": true,
@@ -9,29 +9,29 @@
       "name": "赣锋锂业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-09-22 14:45:45",
+        "timestamp": "2026-09-22 16:29:00",
         "latest": 46.39,
         "prevClose": 46.56,
         "open": 46.56,
         "high": 46.95,
         "low": 46.3,
-        "volume": 22189780.0,
-        "turnover": 1034710151.68,
+        "volume": 23307652.0,
+        "turnover": 1086555737.61,
         "change": -0.17,
         "pctChange": -0.3651,
         "amplitude": 1.396
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-09-22 14:45:45",
+        "timestamp": "2026-09-22 16:14:36",
         "latest": 46.39,
         "prevClose": 46.56,
         "open": 46.56,
         "high": 46.95,
         "low": 46.3,
-        "volume": 221898.0,
-        "turnover": 1034710000.0,
-        "turnoverRate": 1.83
+        "volume": 233077.0,
+        "turnover": 1086560000.0,
+        "turnoverRate": 1.92
       },
       "verification": {
         "passed": true,
@@ -50,35 +50,35 @@
       "name": "中国铝业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-09-22 14:45:48",
+        "timestamp": "2026-09-22 15:34:59",
         "latest": 9.27,
         "prevClose": 9.18,
         "open": 9.14,
         "high": 9.41,
         "low": 9.11,
-        "volume": 201872305.0,
-        "turnover": 1867270107.0,
+        "volume": 208992542.0,
+        "turnover": 1933257969.0,
         "change": 0.09,
         "pctChange": 0.9804,
         "amplitude": 3.268
       },
       "tencent": {
         "source": "tencent",
-        "timestamp": "2026-09-22 14:45:45",
-        "latest": 9.26,
+        "timestamp": "2026-09-22 16:14:48",
+        "latest": 9.27,
         "prevClose": 9.18,
         "open": 9.14,
         "high": 9.41,
         "low": 9.11,
-        "volume": 2018530.0,
-        "turnover": 1867090000.0,
-        "turnoverRate": 1.53
+        "volume": 2089925.0,
+        "turnover": 1933260000.0,
+        "turnoverRate": 1.58
       },
       "verification": {
         "passed": true,
         "errors": [],
         "differences": {
-          "latest": 0.01,
+          "latest": 0.0,
           "prevClose": 0.0,
           "open": 0.0,
           "high": 0.0,
