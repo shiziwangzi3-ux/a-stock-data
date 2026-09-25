@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24 20:53:08",
+  "generatedAt": "2026-09-25 14:34:15",
   "timezone": "Asia/Shanghai",
   "status": "行情核准成功",
   "allowTradeAnalysis": true,
@@ -9,7 +9,7 @@
       "name": "赣锋锂业",
       "eastmoney": {
         "source": "sina",
-        "timestamp": "2026-09-24 15:35:00",
+        "timestamp": "2026-09-24 16:29:00",
         "latest": 43.68,
         "prevClose": 45.53,
         "open": 45.38,
